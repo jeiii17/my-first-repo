@@ -9,6 +9,14 @@ def add(a, b):
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
-print("Sum:", add(a, b))
+print("=", add(a, b))
 
 print("My Name is Jay")
+
+def subtract(a, b):
+    return a - b
+
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("=", subtract(a, b))
